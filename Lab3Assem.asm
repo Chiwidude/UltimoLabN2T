@@ -1,10 +1,14 @@
-@0
+@1300
 D = A
 @i
 M = D
-@0
+@1300
 D = A
 @j
+M = D
+@0
+D = A
+@k
 M = D
 @16705
 D = A
@@ -29,6 +33,13 @@ M = M + 1
 @LOOP
 0;JMP
 (CONTINUE)
+@30
+D = A
+@k
+A = M
+D = D - A
+@SALTO
+D;JLE
 //revisar que letra se escribe
 @j
 D = M
@@ -302,6 +313,8 @@ D;JEQ
 M = M + 1
 @j
 M = M + 1
+@k
+M = M + 1
 @CONTINUE
 0;JMP
 (JUMPLA)
@@ -323,6 +336,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@3
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLB)
@@ -354,6 +371,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLC)
@@ -389,6 +410,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLD)
@@ -415,6 +440,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLE)
@@ -429,6 +458,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@2
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLF)
@@ -462,6 +495,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLG)
@@ -488,6 +525,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLH)
@@ -517,6 +558,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLI)
@@ -534,6 +579,12 @@ A = M
 M = D
 @inicio
 M = M + 1
+@j
+M = M + 1
+@3
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLJ)
@@ -563,6 +614,12 @@ A = M
 M = D
 @inicio
 M = M + 1
+@j
+M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLK)
@@ -591,6 +648,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLL)
@@ -624,6 +685,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLM)
@@ -643,6 +708,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@3
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLN)
@@ -664,6 +733,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@3
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLO)
@@ -688,6 +761,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLP)
@@ -721,6 +798,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLQ)
@@ -754,6 +835,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLR)
@@ -782,6 +867,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLS)
@@ -806,6 +895,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLT)
@@ -820,6 +913,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@2
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLU)
@@ -846,6 +943,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLV)
@@ -877,6 +978,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLW)
@@ -903,6 +1008,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@4
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLX)
@@ -936,6 +1045,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLY)
@@ -969,6 +1082,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPLZ)
@@ -1000,6 +1117,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@5
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL0)
@@ -1034,6 +1155,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL1)
@@ -1070,6 +1195,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL2)
@@ -1106,6 +1235,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL3)
@@ -1142,6 +1275,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL4)
@@ -1178,6 +1315,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL5)
@@ -1212,6 +1353,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL6)
@@ -1248,6 +1393,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL7)
@@ -1284,6 +1433,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL8)
@@ -1320,6 +1473,10 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
 @CONTINUE
 0;JMP
 (JUMPL9)
@@ -1356,6 +1513,25 @@ M = D
 M = M + 1
 @j
 M = M + 1
+@6
+D = A
+@k
+M = M + D
+@CONTINUE
+0;JMP
+(SALTO)
+@30
+D = A
+@inicio
+M = M - D
+@384
+D = A
+@inicio
+M = M + D
+@0
+D = A
+@k
+M = D
 @CONTINUE
 0;JMP
 (FINAL)
