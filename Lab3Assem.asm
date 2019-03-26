@@ -65,6 +65,167 @@ D = M
 D = D - A
 @JUMPLC
 D;JEQ
+@j
+A = M
+D = M
+@68
+D = D - A
+@JUMPLD
+D;JEQ
+@j
+A = M
+D = M
+@69
+D = D - A
+@JUMPLE
+D;JEQ
+@j
+A = M
+D = M
+@70
+D = D - A
+@JUMPLF
+D;JEQ
+@j
+A = M
+D = M
+@71
+D = D - A
+@JUMPLG
+D;JEQ
+@j
+A = M
+D = M
+@72
+D = D - A
+@JUMPLH
+D;JEQ
+@j
+A = M
+D = M
+@73
+D = D - A
+@JUMPLI
+D;JEQ
+@j
+A = M
+D = M
+@74
+D = D - A
+@JUMPLJ
+D;JEQ
+@j
+A = M
+D = M
+@75
+D = D - A
+@JUMPLK
+D;JEQ
+@j
+A = M
+D = M
+@76
+D = D - A
+@JUMPLL
+D;JEQ
+@j
+A = M
+D = M
+@77
+D = D - A
+@JUMPLM
+D;JEQ
+@j
+A = M
+D = M
+@78
+D = D - A
+@JUMPLN
+D;JEQ
+@j
+A = M
+D = M
+@79
+D = D - A
+@JUMPLO
+D;JEQ
+@j
+A = M
+D = M
+@80
+D = D - A
+@JUMPLP
+D;JEQ
+@j
+A = M
+D = M
+@81
+D = D - A
+@JUMPLQ
+D;JEQ
+@j
+A = M
+D = M
+@82
+D = D - A
+@JUMPLR
+D;JEQ
+@j
+A = M
+D = M
+@83
+D = D - A
+@JUMPLS
+D;JEQ
+@j
+A = M
+D = M
+@84
+D = D - A
+@JUMPLT
+D;JEQ
+@j
+A = M
+D = M
+@85
+D = D - A
+@JUMPLU
+D;JEQ
+@j
+A = M
+D = M
+@86
+D = D - A
+@JUMPLV
+D;JEQ
+@j
+A = M
+D = M
+@87
+D = D - A
+@JUMPLW
+D;JEQ
+@j
+A = M
+D = M
+@88
+D = D - A
+@JUMPLX
+D;JEQ
+@j
+A = M
+D = M
+@89
+D = D - A
+@JUMPLY
+D;JEQ
+@j
+A = M
+D = M
+@90
+D = D - A
+@JUMPLZ
+D;JEQ
 //Escritura de letras
 (JUMPL_)
 @inicio
