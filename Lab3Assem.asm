@@ -226,6 +226,76 @@ D = M
 D = D - A
 @JUMPLZ
 D;JEQ
+@j
+A = M
+D = M
+@48
+D = D - A
+@JUMPL0
+D;JEQ
+@j
+A = M
+D = M
+@49
+D = D - A
+@JUMPL1
+D;JEQ
+@j
+A = M
+D = M
+@50
+D = D - A
+@JUMPL2
+D;JEQ
+@j
+A = M
+D = M
+@51
+D = D - A
+@JUMPL3
+D;JEQ
+@j
+A = M
+D = M
+@52
+D = D - A
+@JUMPL4
+D;JEQ
+@j
+A = M
+D = M
+@53
+D = D - A
+@JUMPL5
+D;JEQ
+@j
+A = M
+D = M
+@54
+D = D - A
+@JUMPL6
+D;JEQ
+@j
+A = M
+D = M
+@55
+D = D - A
+@JUMPL7
+D;JEQ
+@j
+A = M
+D = M
+@56
+D = D - A
+@JUMPL8
+D;JEQ
+@j
+A = M
+D = M
+@57
+D = D - A
+@JUMPL9
+D;JEQ
 //Escritura de letras
 (JUMPL_)
 @inicio
@@ -305,6 +375,973 @@ M = D
 M = M + 1
 @1023
 D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLD)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLE)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLF)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLG)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLH)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLI)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLJ)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLK)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLL)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLM)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLN)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLO)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLP)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLQ)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLR)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLS)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLT)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLU)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLV)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLW)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLX)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLY)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPLZ)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL0)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL1)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL2)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL3)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL4)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL5)
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL6)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL7)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL8)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@32
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@j
+M = M + 1
+@CONTINUE
+0;JMP
+(JUMPL9)
+@inicio
+M = M + 1
+@1023
+D = A
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
+@inicio
+A = M
+M = D
+@inicio
+M = M + 1
 @inicio
 A = M
 M = D
